@@ -1,21 +1,13 @@
-
-<%= title %>
-
-<h1>Nhap thong tin: </h1>
-
-<form onsubmit="myFunction()">
-  <!-- So phan tu: <input type="text" name="count" value="<%= count %>" style="text-align: right"> <br> -->
-  ------- Mang: <input type="text" name="inputString" value="<%= inputString %>" style="text-align: right; width: 250px;"> <br>
-  ---------------- <input type="submit" value="Submit">
+<h1><%= title %></h1>
+<form>
+    Array:<br>
+    <input type="text" name="inputString" value="3, 2, 1" style="text-align: right; width: 250px;">
+    <br><br>
+    <input type="submit" value="Submit">
 </form>
-<!-- <h2>Count: <%= count %> </h2> -->
+
 <h2>inputString: <%= inputString %></h2>
 <h2>arraySorted: <%= arraySorted %></h2>
 
 
-<script>
-  function myFunction() {
-    // alert("The form was submitted");
-    //document.getElementById('num').innerHTML = 6;
-  }
-</script>
+
